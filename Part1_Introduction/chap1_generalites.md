@@ -167,6 +167,22 @@ for x in range(10):
 	print(x)
 ```
 
+## 002 Exercice table multiplication
+
+Créez une fonction qui affiche une table de multiplication dans une liste.
+
+Indications  :
+
+Pensez à utiliser une boucle
+
+Pour ajouter des éléments à une liste utiliser la méthode append sur la liste
+
+```python
+l = []
+l.append(1)
+```
+
+
 - Boucle tant que
 
 ```python
