@@ -209,7 +209,7 @@ l = [1,2,3,4,5]
 l[0] # 1
 l[-1] # 5
 
-# Slicing
+# Slicing Start:End:Step
 l[-2:]
 ```
 ### l'opérateur : sur les listes
@@ -265,6 +265,22 @@ l.sort(reverse=True)
 # Supprime tous les éléments d'une liste
 l.clear()
 ```
+
+## 004 Exercice max
+
+Créez une fonction qui calcul le max de 2 valeurs, puis trois valeurs. Et facultatif N valeurs. 
+
+Indication : vous n'avez pas le droit d'utiliser de fonction native
+
+## 005 Comptez les lettres
+
+Soit la chaine de caractères suivantes, calculez le nombre de i, puis le nombre de chaque lettre.
+
+```python
+m = "Mississippi"
+```
+
+
 
 Une liste n'est pas copiée elle a une même référence
 Si vous copiez une liste dans une autre variable celle-ci sera référencée vers la même liste, elle n'est pas copiée.
