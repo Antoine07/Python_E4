@@ -65,6 +65,24 @@ import builtins
 print = 1
 ```
 
+## 001 Exercice permutation
+
+1. Soit a = 1, b = 3 permuter les valeurs de ces deux variables à l'aide script
+
+```python
+print(a) # 3
+print(b) # 1
+```
+
+2. Refaire la même chose avec les trois variables suivantes a = 1, b = 2, c = 3
+
+```python
+print(a) # 3
+print(b) # 1
+print(c) # 2
+```
+
+
 - Passage d'arguments à une fonction 
 
 ```python
