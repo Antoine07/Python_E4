@@ -362,12 +362,16 @@ a, b = 1, 2
 a, b = b, a
 ```
 
-## Compréhension de liste
+## Compréhension de liste propre à Python
 
 Elles permettent la construction de liste de manière concise. Ci-dessous construction d'une liste des cubes de 1 à 10 :
 
 ```python
 cubes = [ x**3 for x in range (1, 11)]
+
+cubes = []
+for x in range (1, 11):
+	cubes.append(x**3)
 ```
 
 Par exemple on peut créer un zip de deux listes et mettre les tuples de ce zip dans une liste avec de la compréhension de liste.
@@ -378,6 +382,16 @@ m = [2, 3]
 vectors = [ v for v in zip(l, m)]
 # [(1, 2), (2, 3)]
 ```
+
+### 007 Exercice compréhesion de liste
+
+```python
+l = [0, 1, 100, 4, 9, 16, 25, 36, 49, 64, 81]   
+```
+
+1. A l'aide d'une compréhension de liste augmenter de 10% chaque valeur
+
+2. Puis faites une nouvelle augmentation sur les valeurs supérieur à 50.
 
 ### Compréhension de liste avec un tuple
 
