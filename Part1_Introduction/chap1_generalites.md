@@ -391,7 +391,27 @@ l = [0, 1, 100, 4, 9, 16, 25, 36, 49, 64, 81]
 
 1. A l'aide d'une compréhension de liste augmenter de 10% chaque valeur
 
-2. Puis faites une nouvelle augmentation sur les valeurs supérieur à 50.
+2. Puis faites une nouvelle augmentation de 5% sur les valeurs supérieur à 50.
+
+### 08 modifier la liste 
+
+A l'aide de compréhension de liste modifier la liste r 
+
+```python
+r = []
+for i in range(1, 5):
+    for j in range(1, 5):
+        r.append((i, j))
+
+print(r)
+"""
+[(1, 1), (1, 2), (1, 3), (1, 4), (2, 1), (2, 2), (2, 3), 
+(2, 4), (3, 1), (3, 2), (3, 3), (3, 4), (4, 1), (4, 2), 
+(4, 3), (4, 4)]
+"""
+```
+
+# Transofmer cela en compréhention de liste
 
 ### Compréhension de liste avec un tuple
 
