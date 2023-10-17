@@ -280,8 +280,6 @@ Soit la chaine de caractères suivantes, calculez le nombre de i, puis le nombre
 m = "Mississippi"
 ```
 
-
-
 Une liste n'est pas copiée elle a une même référence
 Si vous copiez une liste dans une autre variable celle-ci sera référencée vers la même liste, elle n'est pas copiée.
 
