@@ -104,6 +104,18 @@ def h(**t):
 h(a =1, b= 2, c =3) # { 'a' : 1, 'b' : 2, 'c' : 3 }
 ```
 
+## 002 Exercice
+
+Créez une fonction qui permet de calculer le prix TTC connaissant le prix HT
+
+```python
+
+def ttc(price, tva):
+	pass  # todo
+
+```
+
+
 ## Quelques définitions de base
 
 Python utilise l'indentation comme syntaxe.
