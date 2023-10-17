@@ -280,39 +280,6 @@ Soit la chaine de caractères suivantes, calculez le nombre de i, puis le nombre
 m = "Mississippi"
 ```
 
-Une liste n'est pas copiée elle a une même référence
-Si vous copiez une liste dans une autre variable celle-ci sera référencée vers la même liste, elle n'est pas copiée.
-
-```python
-l = [1,2,3,4,5]
-m =l
-m[0] = 100
-print(l, m) # [100, 2, 3, 4, 5] [100, 2, 3, 4, 5]
-```
-
-On notera également que les listes et les chaînes de caractères en Python ont des nombreuses propriétés en commun.
-
-## Faire une shallow copy pour copier la liste
-
-Il faut faire ce que l'on appelle une shallow copy pour copier une nouvelle liste dans une nouvelle variable.C'est une copie peu profonde.
-
-```python
-q = l[:]
-```
-
-Remarque sur la copie peu profonde (shallow copy)
-
-```python
-# il y a 4 références ici 
-r = [[1, 2], [3, 4], [5, 6]]
-
-# shallow copy ne fait la copie que de la première 
-t = r[:]
-t[0][0] = 100
-
-print(r, t)
-# [[100, 2], [3, 4], [5, 6]] [[100, 2], [3, 4], [5, 6]]
-```
 
 ### 01 Exercice maximun d'une liste avec indice
 
@@ -496,4 +463,39 @@ transposed = [
 	[2,5,8],
 	[3,6,9]
 ]
+```
+
+
+Une liste n'est pas copiée elle a une même référence
+Si vous copiez une liste dans une autre variable celle-ci sera référencée vers la même liste, elle n'est pas copiée.
+
+```python
+l = [1,2,3,4,5]
+m = l
+m[0] = 100
+print(l, m) # [100, 2, 3, 4, 5] [100, 2, 3, 4, 5]
+```
+
+On notera également que les listes et les chaînes de caractères en Python ont des nombreuses propriétés en commun.
+
+## Faire une shallow copy pour copier la liste
+
+Il faut faire ce que l'on appelle une shallow copy pour copier une nouvelle liste dans une nouvelle variable.C'est une copie peu profonde.
+
+```python
+q = l[:]
+```
+
+### Remarque sur la copie peu profonde (shallow copy)
+
+```python
+# il y a 4 références ici 
+r = [[1, 2], [3, 4], [5, 6]]
+
+# shallow copy ne fait la copie que de la première 
+t = r[:]
+t[0][0] = 100
+
+print(r, t)
+# [[100, 2], [3, 4], [5, 6]] [[100, 2], [3, 4], [5, 6]]
 ```
