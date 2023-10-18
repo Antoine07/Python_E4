@@ -188,10 +188,10 @@ print(list(res))
 
 ```python
 phones = [
-{ name: "iphone XX", priceHT: "900EURO" },
-{ name: "iphone X", priceHT: "70EURO" },
-{ name: "iphone B", priceHT: "200EURO" },
-];
+{ 'name': "iphone XX", 'priceHT': "900EURO" },
+{ 'name': "iphone X", 'priceHT': "70EURO" },
+{ 'name': "iphone B", 'priceHT': "200EURO" },
+]
 ```
 
 Indication : pour retirer un élément dans une chaine de caractères utiliser la méthode replace.
