@@ -124,7 +124,7 @@ p = ('a', 'b', 'c')
 t = 'a', 'b', 'c'
 u = t, (1,2,4)
 print(u)
-# ('a', 'b', 'c', (1,2,4))
+# (('a', 'b', 'c'), (1,2,4))
 ```
 
 Notez que souvent on utilisera des parenthèses pour définir un tuple par exemple : (1,2,3). Dans certains cas ils seront nécessaires, comme les tuples imbriqués.
