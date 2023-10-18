@@ -180,6 +180,22 @@ print(list(res))
  # [(200, 300 ), (500, 900)]
  ```
 
+## 001 Exercice phones
+
+1. Nettoyez les données, vous retirez l'item EURO pour le prix de chaque appareil. 
+
+2. Créez des tuples à partir des dictionnaires (changement de structure de données)
+
+```python
+phones = [
+{ name: "iphone XX", priceHT: "900EURO" },
+{ name: "iphone X", priceHT: "70EURO" },
+{ name: "iphone B", priceHT: "200EURO" },
+];
+```
+
+Indication : pour retirer un élément dans une chaine de caractères utiliser la méthode replace.
+
 ## Les ensembles 
 
 **Python fournit également un type de donnée pour les ensembles. Un ensemble est une collection non ordonnée sans élément dupliqué.** 
