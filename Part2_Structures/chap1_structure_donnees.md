@@ -259,7 +259,7 @@ a = { x for x in zip( [1,1,1], [1,1,1] ) }
 # {(1, 1)}
 ```
 
-## 01 Exercice mississippi
+## 01 Exercice mississippi (déjà fait )
 
 Soit la chaîne de caractères suivante : "mississippi". Comptez le nombre d'occurence de chaque lettre(s).
 
