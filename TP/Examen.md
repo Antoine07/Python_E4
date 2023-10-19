@@ -1,6 +1,6 @@
 # Examen
 
-## Partie 1 liste d'exercices
+## Partie 1 liste d'exercices 70% de la note
 
 ### 01 Exercice ordre
 
@@ -80,13 +80,13 @@ students = [
 ]
 ```
 
-## Partie 2 TP exploration de données
+## Partie 2 TP exploration de données - 30% de la note
 
-Pour ce TP qui est un TP de recherche de relations dans un dataset vous pouvez me contacter pour de l'aide sur slack pendant les vacances. N'hésites pas. Notamment si vous êtes bloqué je peux vous aidez à trouver des éléments de script qui vous permettrons d'avancer. Sur Slack dans ce cas posez moi votre question, j'y répondrais dès que possible en vous donnant des conseils et exemples.
+Pour ce TP qui est un TP de recherche de relations dans un dataset vous pouvez me contacter pour de l'aide sur Teams pendant les vacances. N'hésites pas. Notamment si vous êtes bloqué je peux vous aidez à trouver des éléments de script qui vous permettrons d'avancer. 
 
-Pour le développement vous devez créer un notebook et si vous le souhaitez un fichier que vous importez dans votre notebook qui contiendra vos scripts.
+Pour le développement vous devez créer un notebook ou fichier.
 
-Avant de commencer ci-dessous vous avez une partie **Partie les données de l'exercice**. Ce sont les données à explorer.
+Avant de commencer ci-dessous vous avez une partie **Partie les données de l'exercice**. Ce sont les données à explorer, regardez-les.
 
 ### Les données de l'exercice
 
@@ -146,4 +146,4 @@ print( populations[0] )
 
 1. Calculer la moyenne des relations. Vous pouvez utiliser len, une méthode qui permet de calculer la longueur d'une liste.
 
-2. Créez une liste représentant les users (id) et le nombre derelation(s) qu’ils possèdent. Par exemple vous pouvez ajoutez à cette liste un tuple constitué de l'id de l'utilisateur et le nombre de ses relations : (id, nb_relation)
+2. Créez une liste représentant les users (id) et le nombre de relation(s) qu’ils possèdent. Par exemple vous pouvez ajoutez à cette liste un tuple constitué de l'id de l'utilisateur et le nombre de ses relations : (id, nb_relation).
