@@ -52,7 +52,7 @@ Créez une fonction accumulator qui permet de faire la somme de liste de liste d
 l = [[1,2], [3, 4], [5, 6]]
 ```
 
-### 07 Exercice accumulator
+### 07 Exercice copie profonde
 
 Soit la liste suivante, créez une fonction deep copy qui permet d'en faire une copie profonde.
 
