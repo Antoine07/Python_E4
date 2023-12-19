@@ -194,7 +194,7 @@ mapSub = MappingSubclass("Bonjour")
 
 Python définit ce que l'on appelle un arbre d'héritage entre la classe et l'instance de la classe. Si vous regardez l'espace de nommage de la classe et de l'instance alors l'espace de nommage à la différence de la classe est vide. Cet espace sera rempli par les méthodes et les attributs que l'on définiera dans la classe elle-même.
 
-<img src="images/class_041.png" alt="drawing" style="width:400px;"/>
+<img src="images/class_041.png" alt="drawing" style="width:600px;"/>
 
 ### Exemple concret du principe d'arbre d'héritage
 
@@ -443,7 +443,7 @@ Indications, ci-dessous les distances absolue, euclienne et Minkowski pour les p
 A(x1, x2, ..., xn)
 B(y1, y2, ..., yn)
 
-![distances](./images/distances.png)
+<img src="./images/distances.png" alt="drawing" style="width:600px;"/>
 
 Pour calculer la distance entre deux points, on appliquera la définition suivante, en définissant A(x, y) et B(x, y)
 
