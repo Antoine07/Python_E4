@@ -133,7 +133,7 @@ Par convention les méthodes privées en Python seront préfixées par un/deux e
 
 ### Setter et getter en Python
 
-Vous pouvez également définir des getter et setter en Python en utilisant la propriété property, c'est un décorateur Python. 
+Vous pouvez également définir des getter et setter en Python en utilisant la propriété property ( c'est un décorateur Python, nous les verrons en détails un peu plus tard dans le cours ).
 
 ```python
 class A:
@@ -163,7 +163,7 @@ Créez deux produits apple et orange respectivement avec les prix HT suivants : 
 
 Affichez le prix de chaque produit et faites la sommes des deux produits.
 
-## 00 Exercice que fait ce programme ? (à ne pas réviser)
+## 002 Exercice que fait ce programme ? (à ne pas réviser)
 
 Faites une instance de la classe MappingSubclass, est une classe qui hérite de Mapping
 
@@ -194,7 +194,7 @@ mapSub = MappingSubclass("Bonjour")
 
 Python définit ce que l'on appelle un arbre d'héritage entre la classe et l'instance de la classe. Si vous regardez l'espace de nommage de la classe et de l'instance alors l'espace de nommage à la différence de la classe est vide. Cet espace sera rempli par les méthodes et les attributs que l'on définiera dans la classe elle-même.
 
-![class](images/class_041.png)
+<img src="images/class_041.png" alt="drawing" style="width:400px;"/>
 
 ### Exemple concret du principe d'arbre d'héritage
 
